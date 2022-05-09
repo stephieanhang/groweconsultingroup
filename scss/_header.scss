@@ -1,0 +1,65 @@
+/*PÁGINA INDEX*/
+
+header {
+    .carousel-caption {
+        margin-bottom: 20vh;
+    }
+    .modification {
+        margin-bottom: 18vh;
+    }
+}
+
+/*PÁGINA NUESTRAS PROPUESTAS*/
+
+.titulo_propuestas {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PÁGINA NUESTRO EQUIPO*/
+
+header {
+    h1 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+}
+
+/*PÁGINA BLOG*/
+
+header {
+    h4 {
+        font-weight: lighter;
+    }
+}
+
+/*PÁGINA GRACIAS*/
+
+header {
+    .gracias {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        background-color: #E3702F;
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+}
+

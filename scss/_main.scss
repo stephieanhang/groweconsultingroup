@@ -1,0 +1,755 @@
+/*MÁRGEN*/
+@media screen and (min-width: 320px) {
+main {
+    margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+main {
+    margin-top: 0px;
+}
+}
+
+/*PÁGINA INDEX - SECCIÓN NUESTRAS PROPUESTAS*/
+
+@media screen and (min-width: 320px) {
+    main {
+        .card-img-top {
+            width: 200px;
+            align-self: center;
+        }
+        .card-title {
+            text-align: center;
+        }
+        .card-text {
+            text-align: center;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }
+        .margin {
+            margin-top: 25px;     
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        .card-img-top {
+            width: 250px;
+            align-self: center;
+        }
+    }
+}
+
+/*PÁGINA INDEX - SECCIÓN MUNDO ONLINE*/
+
+@media screen and (min-width: 320px) {
+main {
+    .mundoonline {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    gap: 10px;
+        .contenedorreporte {
+            margin-top: 20px;
+            .referencia {
+                font-family: 'Montserrat';
+                font-size: 0.5rem;
+                text-decoration: none;
+                color: #737373;
+                & a:link {
+                    text-decoration: none;
+                    color: #737373;
+                }
+                & a:visited {
+                    text-decoration: none;
+                    color: #737373;
+                }
+            }
+            .reporte {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px) {
+main {
+    .mundoonline {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+        .contenedorreporte {
+            margin-top: 20px;
+            .referencia {
+                font-family: 'Montserrat';
+                font-size: 1rem;
+                text-decoration: none;
+                color: #737373;
+                & a:link {
+                    text-decoration: none;
+                    color: #737373;
+                }
+                & a:visited {
+                    text-decoration: none;
+                    color: #737373;
+                }
+            }
+            .reporte {
+                width: 500px;
+                height: 400px;
+            }
+        }
+    }
+}
+}
+
+/*SECCIÓN & PÁGINA NUESTRO EQUIPO*/
+
+@media screen and (min-width: 320px) {
+main {
+    .nuestroequipo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        width: 80%;
+        align-content: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        .perfil {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "perfilanhang"
+            "perfilparpal";
+            margin-top: 20px;
+            .perfilanhang {
+                grid-area: perfilanhang;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                justify-items: center;
+                align-items: center;
+            }
+            .perfilparpal {
+                grid-area: perfilparpal;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                justify-items: center;
+                align-items: center;
+            }
+            .fotoperfil {
+                width: 100px;
+                filter: grayscale(100%);
+                border-radius: 100%;
+            }
+        
+            .fotoperfil:hover {
+                filter: grayscale(0%);
+            }
+            .nombrefounder {
+                text-decoration: none;
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px) {
+main {
+    .nuestroequipo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        width: 70%;
+        align-content: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        p {
+            font-family: $font-parrafo;
+            font-size: $p-desktop;
+            text-align: center;
+            color: $color-text;
+        }
+        .perfil {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "perfilanhang perfilparpal";
+            margin-top: 20px;
+            .perfilanhang {
+                grid-area: perfilanhang;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                justify-items: center;
+                align-items: center;
+            }
+            .perfilparpal {
+                grid-area: perfilparpal;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                justify-items: center;
+                align-items: center;
+            }
+            .fotoperfil {
+                width: 250px;
+                filter: grayscale(100%);
+            }
+        
+            .fotoperfil:hover {
+                filter: grayscale(0%);
+            }
+            .nombrefounder {
+                text-decoration: none;
+            }
+            .bi {
+                font-size: 2rem;
+                color: #737373;
+                padding: 10px;
+            }
+        }
+    }
+}
+}
+
+/*SECCIÓN & PÁGINA CONTACTANOS*/
+
+@media screen and (min-width: 320px) {
+    main {
+        .contactanos {
+            background-color: #4FA9ED;
+            color: white;
+            margin-top: 80px;
+            padding-bottom: 50px;
+            h2 {
+                padding: 20px;
+                color: white;
+                font-weight: bold;
+            }
+            form {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                .btn a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        .formulario {
+            background-color: #4FA9ED;
+            color: white;
+            margin-top: 80px;
+            padding-bottom: 50px;
+            padding-top: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+            .btn a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+main {
+    .contactanos {
+        background-color: #4FA9ED;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-bottom: 50px;
+        h2 {
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        form {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            .btn a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .formulario {
+        background-color: #4FA9ED;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+}
+
+/*PÁGINA NUESTRAS PROPUESTAS*/
+
+@mixin sol-mobile {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    box-shadow: #737373 3px 3px 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+@mixin sol-desktop {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    box-shadow: #737373 3px 3px 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (min-width: 320px) {
+    main {
+        .sol {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+        .sol-brand {
+            @include sol-mobile;
+        }
+        .sol-estra {
+            @include sol-mobile;
+        }
+        .sol-social {
+            @include sol-mobile;
+        }
+        .sol-google {
+            @include sol-mobile;
+        }
+        .sol-whats {
+            @include sol-mobile;
+        }
+        .sol-email {
+            @include sol-mobile;
+        }
+        .sol-seo {
+            @include sol-mobile;
+        }
+        .sol-web {
+            @include sol-mobile;
+        }
+        .titulo-sol {
+            font-weight: bolder;
+            font-style: normal;
+            font-size: 1rem;
+            width: 100%;
+        }
+        .subtitulo-sol {
+            font-weight: bolder;
+            font-style: normal;
+            font-size: 0.9rem;
+            text-align: start;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .definicion-sol {
+            font-weight: bold;
+            font-style: normal;
+            font-size: 0.8rem;
+            text-align: start;
+            line-height: 1.5;
+            width: 100%;
+        }
+        .titulo-rol {
+            font-weight: bolder;
+            font-style: normal;
+            font-size: 1rem;
+            text-align: start;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-left: 0px;
+        }
+        .lista-rol {
+            list-style-type:circle;
+            text-align: start;
+            position: relative;
+            font-family: "Montserrat";
+            font-size: 0.8rem;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+        .texto-sol {
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        .sol {
+            width: 80%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 30px;    
+            .sol-brand {
+                @include sol-desktop;
+            }
+            .sol-estra {
+                @include sol-desktop;
+            }
+            .sol-social {
+                @include sol-desktop;
+            }
+            .sol-google {
+                @include sol-desktop;
+            }
+            .sol-whats {
+                @include sol-desktop;
+            }    
+            .sol-email {
+                @include sol-desktop;
+            }
+            .sol-seo {
+                @include sol-desktop;
+            }
+            .sol-web {
+                @include sol-desktop;
+            } 
+            .titulo-sol {
+                font-weight: bolder;
+                font-style: normal;
+                font-size: 1.2rem;
+            }   
+            .subtitulo-sol {
+                font-weight: bolder;
+                font-style: normal;
+                font-size: 1rem;
+                text-align: start;
+                margin-bottom: 20px;
+            }
+            .definicion-sol {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-style: normal;
+                font-size: 0.8rem;
+                text-align: start;
+                line-height: 1.5;
+            } 
+            .titulo-rol {
+                font-weight: bolder;
+                font-style: normal;
+                font-size: 1rem;
+                text-align: start;
+                margin-bottom: 20px;
+                margin-top: 30px;
+                margin-left: 0px;
+            }   
+            .lista-rol {
+                list-style-type:circle;
+                text-align: start;
+                position: relative;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.8rem;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+            .texto-sol {
+                margin-right: 40px;
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+/*PÁGINA NUESTRO EQUIPO*/
+
+$bgcard1: #4FA9ED;
+$bgcard2: #B93AD5;
+$bgcard3: #DF3B64;
+
+@media screen and (min-width: 320px) {
+main {
+    .comotrabajamos {
+        margin-top: 30px;
+    }
+    .bi {
+        font-size: 2rem;
+        color: #737373;
+    }
+}
+}
+@media screen and (min-width: 1024px) {
+    main {
+        .comotrabajamos {
+            margin-top: 50px;
+            .etapas {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .card {
+                border-radius: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                height: 300px;
+                &:hover {
+                    transform:translate(0px,20px);
+                    transition: all 2s;
+                }
+                p {
+                    font-size: 1rem;
+                    font-weight: lighter;
+                    text-align: start;
+                }
+                h5 {
+                    font-style: normal;
+                    margin-bottom: 20px;
+                }
+                p:before {
+                    content: "✔";
+                    color: green;
+                    font-size: 2rem;
+                    display: block;
+                    float: left;
+                    margin: 0 6px 0 0;
+                }
+            }
+        }
+        .bi {
+            font-size: 2rem;
+            color: #737373;
+        }
+    }
+}
+
+/*PÁGINA BLOG*/
+
+$box-shadow: #737373 3px 3px 10px;
+$bg-color: white;
+
+@mixin art {
+    border: none;
+    box-shadow: $box-shadow;
+    background-color: $bg-color;
+    position: relative;
+}
+
+@media screen and (min-width: 320px) {
+    main {
+        h2 {
+            font-family: "Quicksand";
+            font-size: 1rem;
+            text-align: center;
+            color: $color-letra;
+            margin-bottom: 0px;
+        }
+        .noticias {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4,1fr);
+            grid-template-areas: 
+            "art1"
+            "art2"
+            "art3"
+            "art4";
+            justify-items: center;
+            row-gap: 50px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .art1 {
+            grid-area: art1;
+            @include art;
+        }
+        .imgart {
+            width: 200px;
+        }
+        h5 {
+            color: #626262;
+            font-family: 'Montserrat';
+            font-size: 0.8rem;
+            text-align: center;
+            font-style: oblique;
+            line-height: 1.6;
+            font-weight: bold;
+            padding-top: 5px;
+        }
+        .art2 {
+            grid-area: art2;
+            @include art;
+        }
+        .art3 {
+            grid-area: art3;
+            @include art;
+        }
+        .art4 {
+            grid-area: art4;
+            @include art;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        h2 {
+            font-family: "Quicksand";
+            font-size: 1.5rem;
+            text-align: center;
+            color: $color-letra;
+            margin-bottom: 0px;
+        }
+        .noticias {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            "art1 art2"
+            "art3 art4";
+            justify-items: center;
+            row-gap: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .art1 {
+            grid-area: art1;
+            @include art;
+        }
+        .imgart {
+            width: 300px;
+        }
+        h5 {
+            color: #626262;
+            font-family: 'Montserrat';
+            font-size: 1rem;
+            text-align: center;
+            font-style: oblique;
+            line-height: 1.6;
+            font-weight: bold;
+            padding-top: 5px;
+        }
+        .art2 {
+            grid-area: art2;
+            @include art;
+        }
+        .art3 {
+            grid-area: art3;
+            @include art;
+        }
+        .art4 {
+            grid-area: art4;
+            @include art;
+        }
+    }
+}
+
+/*PÁGINA ERROR 404*/
+
+@media screen and (min-width: 1024px) {
+    .error-404 {
+        background-image: url(../media/imagenes/error-404.png);
+        background-color: #737373;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        .titulo-404 {
+            font-size: 5rem;
+            font-family: 'Lato', sans-serif;
+            margin-top: 300px;
+            background-color: white;
+        }
+        .page-404 {
+            font-size: 4rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: lighter;
+            margin-bottom: 280px;
+            background-color: white;
+        }
+    }
+}
+
+/*PÁGINA GRACIAS*/
+main {
+    .bi #gracias {
+        font-size: 2rem;
+        color: #E3702F;
+        padding: 10px;
+    }
+    .seguinos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-items: center;
+        .redes {
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

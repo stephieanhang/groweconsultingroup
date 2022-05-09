@@ -1,0 +1,116 @@
+$h1-desktop: 2rem;
+$h2-desktop: 2rem;
+$h3-desktop: 1.5rem;
+$h4-desktop: 1.2rem;
+$h5-desktop: 1rem;
+$h6-desktop: 0.8rem;
+$p-desktop: 1rem;
+$h1-mobile: 1rem;
+$h2-mobile: 1rem;
+$h3-mobile: 1.2rem;
+$h4-mobile: 1rem;
+$h5-mobile: 0.8rem;
+$h6-mobile: 0.6rem;
+$p-mobile: 0.8rem;
+$color-text: #737373;
+$font-titulo: 'Lato', sans-serif;
+$font-parrafo: 'Quicksand', sans-serif;
+
+@media screen and (min-width: 320px) {
+h1 {
+    font-family: $font-titulo;
+    font-size: $h1-mobile;
+    text-align: center;
+    color: $color-text;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: $font-titulo;
+    font-size: $h2-mobile;
+    text-align: center;
+    color: $color-text;
+}
+
+h3 {
+    font-family: $font-titulo;
+    font-size: $h3-mobile;
+    text-align: center;
+    color: $color-text;
+}
+h4 {
+    font-family: $font-parrafo;
+    font-size: $h4-mobile;
+    text-align: center;
+    color: $color-text;
+    font-weight: bold;
+}
+h5 {
+    font-family: $font-parrafo;
+    font-size: $h5-mobile;
+    text-align: center;
+    color: $color-text;
+}
+p {
+    font-family: $font-parrafo;
+    font-size: $p-mobile;
+    text-align: center;
+    color: $color-text;
+}
+h6 {
+    font-family: $font-parrafo;
+    font-size: $h6-mobile;
+    text-align: center;
+    color: $color-text;
+    font-weight: bold;
+}
+}
+
+@media screen and (min-width: 1024px) {
+h1 {
+    font-family: $font-titulo;
+    font-size: $h1-desktop;
+    text-align: center;
+    color: $color-text;
+    margin-top: 50px;
+}
+    
+h2 {
+    font-family: $font-titulo;
+    font-size: $h2-desktop;
+    text-align: center;
+    color: $color-text;
+}
+    
+h3 {
+    font-family: $font-titulo;
+    font-size: $h3-desktop;
+    text-align: center;
+    color: $color-text;
+}
+h4 {
+    font-family: $font-parrafo;
+    font-size: $h4-desktop;
+    text-align: center;
+    color: $color-text;
+}
+h5 {
+    font-family: $font-parrafo;
+    font-size: $h5-desktop;
+    text-align: center;
+    color: $color-text;
+}
+p {
+    font-family: $font-parrafo;
+    font-size: $p-desktop;
+    text-align: center;
+    color: $color-text;
+    font-weight: bolder;
+}
+h6 {
+    font-family: $font-parrafo;
+    font-size: $h6-desktop;
+    text-align: center;
+    color: $color-text;
+}
+}
