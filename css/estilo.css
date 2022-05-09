@@ -124,11 +124,17 @@
       width: 650px; } }
 
 /*PÁGINA INDEX*/
-header .carousel-caption {
-  margin-bottom: 20vh; }
+@media screen and (min-width: 320px) {
+  header .carousel {
+    display: none; } }
 
-header .modification {
-  margin-bottom: 18vh; }
+@media screen and (min-width: 1024px) {
+  header .carousel {
+    display: block; }
+  header .carousel-caption {
+    margin-bottom: 30vh; }
+  header .modification {
+    margin-bottom: 25vh; } }
 
 /*PÁGINA NUESTRAS PROPUESTAS*/
 .titulo_propuestas {
@@ -782,6 +788,27 @@ header .gracias {
     position: relative; } }
 
 /*PÁGINA ERROR 404*/
+@media screen and (min-width: 1024px) {
+  .error-404 {
+    background-image: url(../media/imagenes/error-404.png);
+    background-color: #737373;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center; }
+    .error-404 .titulo-404 {
+      font-size: 5rem;
+      font-family: 'Lato', sans-serif;
+      margin-top: 300px;
+      background-color: white; }
+    .error-404 .page-404 {
+      font-size: 4rem;
+      font-family: 'Lato', sans-serif;
+      font-weight: lighter;
+      margin-bottom: 280px;
+      background-color: white; } }
+
 @media screen and (min-width: 1024px) {
   .error-404 {
     background-image: url(../media/imagenes/error-404.png);
