@@ -281,7 +281,7 @@ header .gracias {
         text-align: center;
         display: flex;
         flex-direction: column;
-        row-gap: 10px;
+        row-gap: 5px;
         justify-items: center;
         align-items: center; }
       main .nuestroequipo .perfil .perfilparpal {
@@ -299,7 +299,11 @@ header .gracias {
       main .nuestroequipo .perfil .fotoperfil:hover {
         filter: grayscale(0%); }
       main .nuestroequipo .perfil .nombrefounder {
-        text-decoration: none; } }
+        text-decoration: none; }
+      main .nuestroequipo .perfil .bi {
+        font-size: 2rem;
+        color: #737373;
+        padding: 0px; } }
 
 @media screen and (min-width: 1024px) {
   main .nuestroequipo {
@@ -364,10 +368,7 @@ header .gracias {
       color: white;
       font-weight: bold; }
     main .contactanos form {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      width: 100%;
       margin-left: auto;
       margin-right: auto; }
       main .contactanos form .btn a {
@@ -376,15 +377,20 @@ header .gracias {
   main .formulario {
     background-color: #4FA9ED;
     color: white;
+    width: 100%;
     margin-top: 80px;
     padding-bottom: 50px;
     padding-top: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 30px; }
-    main .formulario .btn a {
-      color: white;
-      text-decoration: none; } }
+    main .formulario form {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      main .formulario form .btn a {
+        color: white;
+        text-decoration: none; } }
 
 @media screen and (min-width: 1024px) {
   main .contactanos {
@@ -399,7 +405,7 @@ header .gracias {
       color: white;
       font-weight: bold; }
     main .contactanos form {
-      width: 80%;
+      width: 90%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -419,9 +425,16 @@ header .gracias {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 30px; }
-    main .formulario .btn a {
-      color: white;
-      text-decoration: none; } }
+    main .formulario form {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto; }
+      main .formulario form .btn a {
+        color: white;
+        text-decoration: none; } }
 
 /*PÁGINA NUESTRAS PROPUESTAS*/
 @media screen and (min-width: 320px) {
@@ -788,22 +801,24 @@ header .gracias {
     position: relative; } }
 
 /*PÁGINA ERROR 404*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 320px) {
   .error-404 {
-    background-image: url(../media/imagenes/error-404.png);
-    background-color: #737373;
+    background-image: url(../media/imagenes/error-404-mobile.png);
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-items: center; }
+    justify-items: center;
+    margin-top: auto;
+    margin-bottom: auto; }
     .error-404 .titulo-404 {
-      font-size: 5rem;
+      font-size: 2rem;
       font-family: 'Lato', sans-serif;
       margin-top: 300px;
       background-color: white; }
     .error-404 .page-404 {
-      font-size: 4rem;
+      font-size: 1rem;
       font-family: 'Lato', sans-serif;
       font-weight: lighter;
       margin-bottom: 280px;
