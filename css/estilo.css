@@ -936,6 +936,9 @@ footer {
     color: #737373;
     line-height: 1.5;
     font-weight: lighter; }
+  footer .suscribite {
+    text-decoration: none;
+    color: white; }
 
 .botonwhatsapp {
   position: fixed;
