@@ -688,7 +688,7 @@ header .gracias {
       margin-bottom: 50px;
       height: 300px; }
       main .comotrabajamos .card:hover {
-        transform: translate(0px, 20px);
+        transform: translate(0px, -20px);
         transition: all 2s; }
       main .comotrabajamos .card p {
         font-size: 1rem;
@@ -885,7 +885,13 @@ main .seguinos {
 
 @media screen and (min-width: 320px) {
   nav .logo {
-    width: 150px; } }
+    width: 150px; }
+  nav .contacto {
+    background-color: #E3702F;
+    color: white !important;
+    border-radius: 10%; }
+    nav .contacto:hover {
+      font-weight: normal; } }
 
 @media screen and (min-width: 1024px) {
   nav {
@@ -897,7 +903,13 @@ main .seguinos {
     nav .nav-item:hover {
       font-weight: bold; }
     nav .logo {
-      width: 200px; } }
+      width: 200px; }
+    nav .contacto {
+      background-color: #E3702F;
+      color: white !important;
+      border-radius: 5px; }
+      nav .contacto:hover {
+        font-weight: normal; } }
 
 footer {
   font-family: 'Lato', sans-serif; }
@@ -905,8 +917,10 @@ footer {
     padding: 10px;
     font-size: 2rem;
     color: #737373; }
-  footer .nav-item:hover {
-    font-weight: bold; }
+  footer .nav-item {
+    font-size: medium; }
+    footer .nav-item:hover {
+      font-weight: bold; }
   footer .h5footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;

@@ -590,7 +590,7 @@ $bgcard3: #DF3B64;
                 margin-bottom: 50px;
                 height: 300px;
                 &:hover {
-                    transform:translate(0px,20px);
+                    transform:translate(0px,-20px);
                     transition: all 2s;
                 }
                 p {

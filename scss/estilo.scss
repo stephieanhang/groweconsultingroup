@@ -18,6 +18,14 @@ $color-letra: #737373;
         .logo {
             width: 150px;
         }
+        .contacto {
+            background-color: #E3702F;
+            color: white !important;
+            border-radius: 10%;
+            &:hover {
+                font-weight: normal;
+            }
+        }
     }
 }
 
@@ -37,6 +45,14 @@ $color-letra: #737373;
         .logo {
             width: 200px;
         }
+        .contacto {
+            background-color: #E3702F;
+            color: white !important;
+            border-radius: 5px;
+            &:hover {
+                font-weight: normal;
+            }
+        }
     }
 }
 
@@ -48,6 +64,7 @@ footer {
         color: #737373;
     }
     .nav-item {
+        font-size: medium;
         &:hover {
             font-weight: bold;
         }
